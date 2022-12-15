@@ -1,0 +1,74 @@
+.footer__head{
+    background-color: #02897A;
+    width: 960px;
+    margin: 0 auto;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.footer__head div{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.footer__head h1{
+    width: 400px;
+}
+.footer__head button{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    color: #02897A;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.flex__logo{
+    display: flex;
+    margin-top: 10px;
+}
+.flex__logo img{
+    width: 26px;
+    height: 26px;
+}
+.flex__logo h2{
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.footer__ul{
+    margin-top: 50px;
+}
+.footer__ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.footer__ul a{
+    text-decoration: none;
+    color: #707070;
+    
+}
+
+.know{
+    width: 280px;
+    font-size: 22px;
+    color: #22343D;
+}
+.footer__ul input{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+.footer__ul button{
+    width: 200px;
+    height: 40px;
+    background-color: #02897A;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.footer__ul ul li a:hover{
+    color: #22343D;
+}

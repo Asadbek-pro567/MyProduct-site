@@ -1,0 +1,30 @@
+
+
+
+.customs__head{
+    text-align: center;
+}
+.customs__head h1{
+    color: #22343D;
+}
+.customs__head div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.custom__main{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #F5F5F5;
+    width: 1440px;
+    margin-left: -145px;
+    padding: 50px 145px;
+    
+}
+.special div{
+    border: 1px solid #707070;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+}

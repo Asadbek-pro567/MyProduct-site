@@ -1,0 +1,241 @@
+.main__inner{
+    text-align: center;
+    
+}
+.conta{
+    background-image: url(../image/Bg.png);
+    background-position: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main__inner h1{
+    color: #22343D;
+    width: 480px;
+    margin-left: 300px;
+}
+.main__list{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    color: #22343D;
+}
+.main__list h4{
+    width: 192px;
+}
+.main__list p{
+    width: 210px;
+}
+.main__inner button{
+    background-color: #02897A;
+    color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+
+.main__mainner{
+    margin-top: 20px;
+    color: #22343D;
+}
+.main__mainner h1{
+    margin-top: -20px;
+}
+.main__mainner img{
+    width: 540px;
+    height: 470px;
+}
+.main__mainner p{
+    width: 440px;
+}
+.main__h{
+    margin-top: 130px;
+}
+
+
+.margin__top{
+    margin-top: 120px;
+}
+.main__hero{
+    margin-left: 80px;
+}
+.main__hero ul{
+    margin-top: 40px;
+}
+.main__hero ul li{
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: -36px;
+}
+.main__hero ul li::before{
+    content: ' -';
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+    padding: 1px 8px;
+    margin-right: 10px;
+}
+
+
+
+.cont{
+    background-image: url(../image/Bg1.png);
+    background-position: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main__proces{
+    text-align: center;
+    padding-top: 120px;
+    color: #22343D;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.main__proces button{
+    width: 200px;
+    height: 40px;
+    background-color: #02897A;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+.stronger__list{
+    width: 350px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+.stronger__inner{
+    padding-left: 30px;
+}
+
+.btns{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.btns button{
+    background-color: #707070;
+    color: transparent;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.main__price{
+    text-align: center;
+    color: #22343D;
+    margin-top: 100px;
+}
+.free{
+    box-shadow: 0px 0px 10px 0px;
+    border: 1px solid #fff;
+    width: 320px;
+    height: 450px;
+    border-radius: 10px;
+}
+.free h6{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.free button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #02897A;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
+.month{
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+}
+.month h1{
+    font-size: 76px;
+    margin: 0;
+    padding: 0;
+    color: #02897A;
+}
+.month h5{
+    font-size: 22px;
+    color: #02897A;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: -55px;
+}
+.month h6{
+    margin-top: 0px;
+    margin-left: 8px;
+    color: #707070;
+    font-size: 14px;
+}
+
+.standart{
+    background-color: #02897A;
+    color: #fff;
+}
+.standart h1{
+    color: #fff;
+}
+.standart h5{
+    color: #fff;
+}
+.standart h6{
+    color: #fff;
+}
+.standart button{
+    background-color: #fff;
+    color: #02897A;
+}
+
+.main__clients{
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.main__help{
+    width: 325px;
+    height: 235px;
+    border: 1px solid #707070;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.main__help h5{
+    color: #707070;
+    margin-top: 10px;
+    width: 275px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.flexx{
+    display: flex;
+}
+.flexx div{
+    margin-left: 20px;
+}
+.flexx h4{
+    color: #02897A;
+    margin-bottom: 0;
+}
+.flexx p{
+    margin-top: 0;
+}
+.flexx img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+

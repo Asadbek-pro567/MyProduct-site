@@ -1,0 +1,97 @@
+
+
+.stories{
+    text-align: center;
+    color: #22343D;
+}
+.latest{
+    display: flex;
+    flex-wrap: wrap;
+}
+.latest div{
+    width: 350px;
+    margin: 15px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    text-align: start;
+}
+.latest img{
+    border-radius: 15px 15px 0 0;
+    width: 347px;
+}
+.latest h3{
+    margin-left: 20px;
+}
+.latest h2{
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.contact__us{
+    text-align: center;
+    margin-top: 100px;
+    color: #22343D;
+}
+.contact__inner img{
+    margin: 30px;
+}
+.map{
+    margin-top: 50px;
+}
+
+.send__message{
+    width: 870px;
+    height: 670px;
+    border: 1px solid #DDDDDD;
+    margin: 60px auto;
+    border-radius: 15px;
+    margin: 60px auto;
+    text-align: center;
+}
+.send__inp1{
+    width: 768px;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    padding-left: 30px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 22px;
+    outline: none;
+}
+.send__inp2{
+    width: 768px;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    padding-left: 30px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.send__inp3{
+    width: 768px;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    padding-left: 30px;
+    height: 250px;
+    border-radius: 0;
+    outline: none;
+    margin-top: 50px;
+    padding-top: -150px;
+    font-size: 22px;
+    text-align: start;
+}
+.send__message button{
+    width: 120px;
+    height: 40px;
+    background-color: #02897A;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: block;
+}

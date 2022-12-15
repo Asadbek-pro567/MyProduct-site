@@ -1,0 +1,105 @@
+.header__logo{
+    display: flex;
+    margin-top: 10px;
+}
+.header__logo img{
+    width: 40px;
+    height: 36px;
+}
+.header__logo h3{
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 32px;
+    color: #173A56;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.header__ul{
+    display: flex;
+}
+.header__ul li{
+    margin-left: 40px;
+    list-style-type: none;
+}
+.header__ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+.header__ul li a:hover{
+    color: #22343D;
+}
+.header__ul a{
+    text-decoration: none;
+    color: #173A56;
+}
+.sign__in{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #22343D;
+    border-radius: 10px;
+    color: #22343D;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.sign__up{
+    width: 100px;
+    height: 40px;
+    background-color: #02897A;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sign__up a{
+    color: #fff;
+}
+.day{
+    background-color: transparent;
+    border: none;
+    height: 40px;
+}
+.day__night{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.black{
+    background-color: #22343D;
+    color: #fff;
+}
+
+
+.header__inner{
+    display: flex;
+}
+.header__inner div h1{
+    width: 518px;
+    font-size: 40px;
+    color: #22343D;
+    margin-top: 145px;
+}
+.header__inner div p{
+    color: #22343D;
+    width: 458px;
+    font-size: 18px;
+}
+.header__inner img{
+    width: 600px;
+}
+.header__inner button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #02897A;
+    color: #fff;
+}
+.header__inner a{
+    margin-left: 40px;
+    color: #02897A;
+}

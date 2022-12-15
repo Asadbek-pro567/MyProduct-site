@@ -1,0 +1,77 @@
+
+
+.head{
+    width: 1440px;
+    margin-left: -145px;
+    background: linear-gradient(180deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%)
+}
+.head__main{
+    text-align: center;
+    padding-top: 60px;
+}
+.head__main h2{
+    font-size: 42px;
+}
+.head__main button{
+    background-color: #02897A;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.head__mainner{
+    margin-top: 170px;
+    text-align: center;
+}
+
+
+
+.display__flex{
+    display: flex;
+    text-align: start;
+}
+.yonma{
+    margin-left: 60px;
+    
+}
+.yonma div{
+    display: flex;
+}
+.yonma div img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+}
+.yonma div h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.yonma h5{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #22343D;
+}
+
+.head__footer{
+    text-align: center;
+}
+.head__footer div{
+    display: flex;
+    margin-top: 20px;
+}
+.head__footer div img{
+    width: 24px;
+    height: 24px;
+}
+.head__footer div h3{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.fooooter{
+    margin-top: 150px;
+}

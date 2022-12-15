@@ -72,3 +72,37 @@
 .footer__ul ul li a:hover{
     color: #22343D;
 }
+
+
+@media screen and (max-width: 600px) {
+    .footer__ul{
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .footer__ul ul{
+        display: none;
+        font-size: 14px;
+    }
+    .footer__head{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        display: block;
+        padding: 0;
+        justify-content: start;
+    }
+    .footer__head div{
+        margin: 0 30px;
+    }
+    .footer__head div h1{
+        width: 100%;
+        margin-left: 0;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .footer__head img{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}

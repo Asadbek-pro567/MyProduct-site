@@ -75,3 +75,33 @@
 .fooooter{
     margin-top: 150px;
 }
+
+@media screen and (max-width: 600px) {
+    .display__flex{
+        width: 100%;
+        margin-left: 0;
+        display: block;
+    }
+    .display__flex div{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .head{
+        width: 100%;
+        margin-left: 0;
+    }
+    .head__main{
+        width: 100%;
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .head__main h2{
+        font-size: 28px;
+    }
+    .display__flex img{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+}

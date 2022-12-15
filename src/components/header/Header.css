@@ -103,3 +103,119 @@
     margin-left: 40px;
     color: #02897A;
 }
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 10px 20px;
+    }
+    .flex{
+        display: inline;
+    }
+    .header__ul{
+        width: 100%;
+        margin-left: 0;
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .header__inner {
+        display: inline;
+        width: 100%;
+        margin-left: 0;
+    }
+    .header__inner div h1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .header__inner img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .header__inner div p{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+
+
+     .nav-list {
+        display: grid;
+        position: absolute;
+        background: #404040;
+        width: 100%;
+        top: 55px;
+        left: 0;
+        transform: translateY(-300%);
+        /* z-index: 1; */
+        transition: .6s;
+    }
+
+     .nav-list .nav-item {
+        padding-left: 35px;
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .nav-item:hover{
+        background-color: greenyellow;
+    }
+
+     .navbar-toggler {
+        display: grid !important;
+    }
+    .header__ul li a{
+        color: #fff;
+    }
+    .nav-listt{
+        display: none;
+    }
+}
+
+.navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -20%;
+}
+
+.navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: black;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+.input {
+    display: none;
+}
+
+.input:checked ~ .nav-list {
+    transform: translateY(0);
+    height: 370px;
+    padding-top: 0px;
+    
+}
+.input:checked ~ .flex{
+    padding-bottom: 100px;
+}
+
+.input:checked ~ .navbar-toggler {
+    margin-top: -15%;
+}
+
+.input:checked ~ .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.input:checked ~ .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked ~ .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
+}

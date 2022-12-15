@@ -95,3 +95,84 @@
     margin-top: 40px;
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: #fff;
+    }
+    .resources__head{
+        display: inline;
+    }
+    .resources__head div{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .resources__head img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .odam img{
+        width: 40%;
+
+        margin-left: 0;
+    }
+    .resources__head h1{
+        width: 100%;
+        margin: 20px auto;
+        font-size: 36px;
+    }
+    .resources__head p{
+        width: 100%;
+        margin-left: 0;
+    }
+    .resources__head input{
+        width: 90%;
+        margin-left: 0;
+        height: 30px;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+    .resources__head button{
+        height: 25px;
+        width: 80px;
+        margin-left: 0;
+    }
+    .send__message{
+        width: 100%;
+        margin-left: 0;
+        height: 100%;
+        margin-bottom: 10px;
+        padding-bottom: 5%;
+    }
+    .send__message input{
+        width: 90%;
+        font-size: 14px;
+        margin: 10px;
+    }
+    .send__inp1{
+        height: 40px;
+    }
+    .send__inp2{
+        height: 40px;
+    }
+    .send__inp3{
+        height: 100px;
+    }
+    .send__message button{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    .map{
+        width: 100%;
+        margin-left: 0;
+    }
+    .latest div{
+        width: 100%;
+        margin-left: 0;
+        margin: 10px auto;
+    }
+    .latest div img{
+        width: 100%;
+    }
+}

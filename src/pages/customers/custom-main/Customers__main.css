@@ -53,3 +53,41 @@
     font-size: 22px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .special{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* .special div{
+        width: ;
+        margin-left: 0;
+    } */
+    .special div p{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main__flexx{
+        display: block;
+    }
+    .main__flexx img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main__flexx div{
+        width: 100%;
+        margin-left: 0;
+    }
+    .main__flexx div p{
+        width: 100%;
+        margin-left: 0;
+    }
+    .custom__footerr{
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .busines{
+        display: block;
+    }
+}
